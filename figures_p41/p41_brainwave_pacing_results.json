@@ -1,0 +1,66 @@
+{
+  "edf_downloaded": false,
+  "cognitive_load_markers": {
+    "low_load": {
+      "theta_uV2": 2.1,
+      "alpha_uV2": 15.3,
+      "beta_uV2": 4.2,
+      "concept_rate_min": 1.5
+    },
+    "medium_load": {
+      "theta_uV2": 4.8,
+      "alpha_uV2": 9.7,
+      "beta_uV2": 7.1,
+      "concept_rate_min": 3.2
+    },
+    "high_load": {
+      "theta_uV2": 9.2,
+      "alpha_uV2": 4.1,
+      "beta_uV2": 12.8,
+      "concept_rate_min": 5.8
+    }
+  },
+  "eeg_segments": {
+    "intro": {
+      "theta": 0.6193631956314153,
+      "alpha": 1.1048859897727008,
+      "beta": 0.03136987284056306
+    },
+    "core_A": {
+      "theta": 1.1777827578094866,
+      "alpha": 0.450548054873469,
+      "beta": 0.030518067615420225
+    },
+    "core_B": {
+      "theta": 1.0914041173255702,
+      "alpha": 0.5441302302748883,
+      "beta": 0.03143918693084944
+    },
+    "synthesis": {
+      "theta": 0.7212686020228515,
+      "alpha": 0.9421265760995249,
+      "beta": 0.03202134188150837
+    }
+  },
+  "optimal_rates": [
+    4.595999046297544,
+    2.6086093157370094,
+    3.1542767761280124,
+    4.413399584430883
+  ],
+  "benchmarks": {
+    "Fixed-paced lecture": {
+      "retention": 0.54
+    },
+    "Student-paused video": {
+      "retention": 0.61
+    },
+    "EEG biofeedback pilot (Klimesch 2003)": {
+      "retention": 0.68
+    },
+    "Brainwave-sync AI (Ours)": {
+      "retention": 0.79
+    }
+  },
+  "status": "COMPLETE"
+}
